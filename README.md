@@ -10,30 +10,26 @@
 
 https://start.spring.io/
 
-```
-- maven / gradle
-필요한 라이브러리를 가져오고 build life cycle을 관리하는 tool
-과거에는 maven 사용 요즘은 gradle 사용
-
-- Spring Boot 버전
-SNAPSHOT : 만들고 있는 중
-M1 : 정식 릴리즈 된 것은 아님
-
-- Project Metadata
-Artifact : Build 되어 나오는 결과
-
-```
-
-```
-
-Build.gradle
-
-dependencies를 repositories에 있는 곳에서 다운 받음
+> **maven / gradle**<br/>
+필요한 라이브러리를 가져오고 build life cycle을 관리하는 tool<br/>
+과거에는 maven 사용 요즘은 gradle 사용<br/><br/>
+**Spring Boot 버전**<br/>
+SNAPSHOT : 만들고 있는 중<br/>
+M1 : 정식 릴리즈 된 것은 아님<br/><br/>
+**Project Metadata**<br/>
+Artifact : Build 되어 나오는 결과<br/><br/>
+Build.gradle - dependencies를 repositories에 있는 곳에서 다운 받음
 
 
-```
 
-- [ ] 라이브러리 살펴보기
+- [x] 라이브러리 살펴보기
+> Build Tool들은 의존관계를 모두 관리함<br/>
+Dependencies에서의 (*) : 중복을 제거해 준 것<br/>
+test library : junit
+log를 사용해야한다</br>
+>> slf4j : interface</br>
+logback : 실제 log를 구현체로 출력할 때 사용
+
 - [ ] view 환경설정
 - [ ] 빌드하고 실행하기
 
