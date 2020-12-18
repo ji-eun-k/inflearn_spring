@@ -6,7 +6,7 @@
 - [x] 강의 소개 (12/15 완료)<br/><br/>
 
 ### 프로젝트 환경설정
-- [x] 프로젝트 생성
+- [x] 프로젝트 생성 (12/16)
 
 https://start.spring.io/
 
@@ -22,7 +22,7 @@ Build.gradle - dependencies를 repositories에 있는 곳에서 다운 받음
 
 
 
-- [x] 라이브러리 살펴보기
+- [x] 라이브러리 살펴보기 (12/17)
 > Build Tool들은 의존관계를 모두 관리함<br/>
 Dependencies에서의 (*) : 중복을 제거해 준 것<br/>
 test library : junit
@@ -30,8 +30,12 @@ log를 사용해야한다</br>
 >> slf4j : interface</br>
 logback : 실제 log를 구현체로 출력할 때 사용
 
-- [ ] view 환경설정
-- [ ] 빌드하고 실행하기
+- [x] view 환경설정 (12/18)
+> resources > static 에 index.html 파일 생성 - localhost:8080 접속 시 Welcome page가 뜨는 것을 확인할 수 있음<br/>
+https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-spring-mvc-welcome-page
+- [x] 빌드하고 실행하기 (12/18)
+> cmd 창에서 gradlew build<br/>
+build>libs에 있는 jar 실행 (java -jar 파일명.jar)
 
 ### 스프링 웹 개발기초
 - [ ] 정적 컨텐츠
