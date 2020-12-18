@@ -35,7 +35,8 @@ logback : 실제 log를 구현체로 출력할 때 사용
 https://docs.spring.io/spring-boot/docs/current/reference/html/spring-boot-features.html#boot-features-spring-mvc-welcome-page
 - [x] 빌드하고 실행하기 (12/18)
 > cmd 창에서 gradlew build<br/>
-build>libs에 있는 jar 실행 (java -jar 파일명.jar)
+build>libs에 있는 jar 실행 (java -jar 파일명.jar)<br/>
+gradlew clean 하면 build 폴더 사라짐
 
 ### 스프링 웹 개발기초
 - [ ] 정적 컨텐츠
