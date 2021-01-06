@@ -42,9 +42,10 @@ gradlew clean 하면 build 폴더 사라짐
 - [x] 정적 컨텐츠 (12/22)
 > 정적 컨텐츠 : 서버에서 파일을 **그대로** 웹 브라우저에 내려줌<br/>
 내장 톰켓 서버가 받고 Spring에게 넘김 -> Spring은 Controller가 있는지 먼저 찾아봄 -> 없으므로 내부에서 파일 찾아 반환
-- [ ] MVC와 템플릿 엔진
+- [x] MVC와 템플릿 엔진 (1/6)
 > jsp, php와 같은 템플릿 엔진. html을 서버에서 **프로그래밍(변형)해서** 동적으로 바꿔 줌<br/>
-model - view - controller 
+model - view - controller <br/>
+
 - [ ] API
 > json이라는 data format으로 client에게 data를 전달<br/>
 1. 화면은 client가 알아서 그리고 정리함<br/>
